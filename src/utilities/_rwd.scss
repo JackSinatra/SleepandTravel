@@ -1,0 +1,43 @@
+@mixin bp($point) {
+     @if $point == small{
+        @media (min-width: 500px) {
+             @content;
+        }
+    }
+    @else if $point == tablet {
+         @media (min-width: 768px){
+            @content;
+        }
+    }
+    @else if $point == laptop {
+         @media (min-width: 1024px){
+            @content;
+        }
+    }
+    @else if $point == desktop {
+         @media (min-width: 1200px){
+            @content;
+        }
+    }
+    @else if $point == large {
+         @media (min-width: 1440px){
+            @content;
+        }
+    }
+    @else if $point == extra {
+         @media (min-width: 1620px){
+            @content;
+        }
+    }
+    @else if $point == extralarge {
+         @media (min-width: 1900px){
+            @content;
+        }
+    }
+}
+
+@mixin custom($size){
+  @media (min-width: $size) {
+       @content;
+  }
+}

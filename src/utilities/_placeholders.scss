@@ -1,0 +1,57 @@
+
+//*** General Placeholders
+
+// Center Background
+%background-center{
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+// Absolute centering
+%absolute-center{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+// Center Element
+%block-center{
+margin:0 auto;
+display:block;
+}
+
+// Clearfix
+%clearfix {
+  *zoom: 1;
+  &:after {
+    content: '';
+    display: table;
+    line-height: 0;
+    clear: both;
+  }
+}
+
+// Hide text, screenreaders fallback
+%visuallyhidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+// Cover element
+
+%cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+}

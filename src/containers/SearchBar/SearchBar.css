@@ -1,0 +1,22 @@
+/* Mixin for fluid floating boxes*/
+/* input,*/
+/* textarea {*/
+/*     @include input-placeholder {*/
+/*         color: $grey;*/
+/*     }*/
+/* }*/
+/* Rem mixin*/
+/* ----*/
+/* libsass (v3.2.5)*/
+/* ----*/
+/* list-separator polyfill by Hugo Giraudel (https://sass-compatibility.github.io/#list_separator_function)*/
+.search-bar {
+  margin: 15px 0; }
+  .search-bar__input {
+    outline: none;
+    padding-left: 15px;
+    color: black;
+    font-size: 16px;
+    font-size: 1rem; }
+  .search-bar__input::placeholder {
+    color: #1ABC9C; }
