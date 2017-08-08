@@ -4,15 +4,17 @@ import './normalize.css'
 import './App.css';
 
 // Components
-import {SearchBar} from './containers/SearchBar'
-import {SearchResults} from './components/SearchResults'
+import {Header} from './components/Header'
+import {Main} from './components/Main'
+import {Footer} from './components/Footer'
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-      <SearchBar />
-      <SearchResults />
+        <Header />
+        <Main />
+        <Footer />
       </div>
     );
   }

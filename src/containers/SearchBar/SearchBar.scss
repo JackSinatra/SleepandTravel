@@ -1,14 +1,1 @@
 @import "../../utilities/index";
-
-.search-bar{
-  margin:15px 0;
-  &__input{
-    outline:none;
-    padding-left:15px;
-    color:black;
-    @include fontRem(16);
-  }
-  &__input::placeholder{
-    color:$flat-turquoise;
-  }
-}
