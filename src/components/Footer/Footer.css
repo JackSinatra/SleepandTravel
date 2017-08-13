@@ -10,3 +10,31 @@
 /* libsass (v3.2.5)*/
 /* ----*/
 /* list-separator polyfill by Hugo Giraudel (https://sass-compatibility.github.io/#list_separator_function)*/
+.footer {
+  clear: both;
+  height: 200px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 25px; }
+  .footer-menu__item {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    display: inline-block;
+    font-size: 1rem;
+    color: #949494;
+    font-weight: 300; }
+  .footer-menu__item:hover {
+    color: black; }
+
+.footer-social__icon {
+  margin: 0.9375rem; }
