@@ -25,12 +25,13 @@
   .navbar__logo {
     font-family: "Roboto Slab";
     font-size: 2.1875rem;
-    color: #ecf0f1;
+    color: #2c3e50;
     float: left;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: TranslateY(-50%); }
+    transform: TranslateY(-50%);
+    text-shadow: 1px 1px white; }
   .navbar__logo span {
     border-bottom: 3px solid black; }
 
@@ -54,11 +55,8 @@
     background-color: black;
     -webkit-transition: width 0.5s;
     transition: width 0.5s; }
-  .nav__link:hover:before {
-    -webkit-transition: width 0.5s;
-    transition: width 0.5s;
-    background-color: black;
-    width: 100%; }
+  .nav__link:hover {
+    color: black; }
 
 .header__background {
   overflow: hidden;
@@ -82,6 +80,9 @@
   .search-form__wrapper {
     margin: 0 auto;
     width: 80%; }
+  .search-form__wrapper--inner {
+    overflow: hidden;
+    width: 950px; }
   .search-form__container {
     padding: 1.5625rem;
     display: flex;

@@ -61,7 +61,17 @@
     .offers__box-details__reviews {
       float: left;
       max-width: 100%;
-      height: auto; }
+      height: auto;
+      position: relative; }
+    .offers__box-details__reviews p {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -75px;
+      font-size: 0.875rem;
+      font-weight: 400; }
+    .offers__box-details__reviews p:hover {
+      cursor: pointer; }
     .offers__box-details__utilities {
       height: 23px;
       font-size: 1rem;

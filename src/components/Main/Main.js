@@ -25,6 +25,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -51,6 +52,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -64,6 +66,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -77,6 +80,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -90,6 +94,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -103,6 +108,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -116,6 +122,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>
@@ -129,6 +136,7 @@ export default class Main extends Component {
                 <div className="offers__box-details">
                   <h2 className="offers__box-details__reviews">
                     <img src={reviews} />
+                    <p> 57 reviews </p>
                   </h2>
                   <p className="offers__box-details__utilities"> 5-10km / 3 beds </p>
                 </div>

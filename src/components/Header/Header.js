@@ -28,6 +28,7 @@ export default class Header extends Component {
           </video>
           <div className="search-form">
             <div className="search-form__wrapper">
+            <div className="search-form__wrapper--inner">
               <h1 className="search-form__heading"> <span>Find one night </span>- last minute deals </h1>
               <div className="search-form__container">
               <div className="search-form__container--wrapper">
@@ -61,6 +62,7 @@ export default class Header extends Component {
               </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </header>
